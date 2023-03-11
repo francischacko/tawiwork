@@ -1,11 +1,4 @@
-.writeup{
-  display: flex;
-  flex-direction: row;
-}
-.logimg{
-  padding-left: 200px;
-  padding-top: 90px;
-}
+
 
 body {
   font-family: "Open Sans", sans-serif;
