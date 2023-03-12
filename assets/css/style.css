@@ -1,5 +1,31 @@
+/*for button   */
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* center button vertically */
+ 
+}
 
+.custom-button {
+  border-radius: 10px;
+  border: none;
+  background-color: #9bc699;
+  color: white;
+  
+  width: 50%; /* default length for small screens */
+  padding: 10px;
+  font-size: 16px;
+  text-align: center; /* center button text */
+}
 
+@media only screen and (min-width: 768px) {
+  /* customize button length for larger screens */
+  .custom-button {
+    width: 70%;
+  }
+}
+/*  */
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -115,7 +141,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  color: #fff;
+  color:#9bc699;
   font-size: 14px;
   white-space: nowrap;
   transition: 0.3s;
@@ -132,7 +158,7 @@ a:hover {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffc107;
+  color:white;
 }
 
 .navbar .dropdown ul {
@@ -306,7 +332,7 @@ a:hover {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Luxury Experience/Hero\ Image.png") top center;
+  background: url("../Hero\ Image.png") top center;
   background-size: cover;
   position: relative;
 }
